@@ -113,7 +113,6 @@ function aceify_settings() {
 			<input type="checkbox" name="aceify_emoji" tabindex="18" id="aceify_emoji-checkbox" value="aceify_emoji"<?php if($aceify_emoji==true){ echo 'checked="checked"'; } ?> />&nbsp;<label for="aceify_emoji-checkbox">Disable Emoji Support</label>
 			
 			<br /><br />
-			
 			<h3>Featured Image Support</h3>
 			
 			<input type="checkbox" name="aceify_featured_image" tabindex="18" id="aceify_featured_image-checkbox" value="aceify_featured_image"<?php if($aceify_featured_image==true){ echo 'checked="checked"'; } ?> />&nbsp;<label for="aceify_featured_image-checkbox">Enable Featured Images</label> <br />
