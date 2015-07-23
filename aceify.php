@@ -119,7 +119,6 @@ function aceify_settings() {
 			<input type="checkbox" name="aceify_featured_image" tabindex="18" id="aceify_featured_image-checkbox" value="aceify_featured_image"<?php if($aceify_featured_image==true){ echo 'checked="checked"'; } ?> />&nbsp;<label for="aceify_featured_image-checkbox">Enable Featured Images</label> <br />
 			
 			<br /><br />
-			
 			<h3>Menus Support</h3>
 			
 			<input type="checkbox" name="aceify_menus" tabindex="18" id="aceify_menus-checkbox" value="aceify_menus"<?php if($aceify_menus==true){ echo 'checked="checked"'; } ?> />&nbsp;<label for="aceify_menus-checkbox">Enable Menus</label> <br />
