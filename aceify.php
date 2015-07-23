@@ -125,7 +125,6 @@ function aceify_settings() {
 			<input type="checkbox" name="aceify_menus" tabindex="18" id="aceify_menus-checkbox" value="aceify_menus"<?php if($aceify_menus==true){ echo 'checked="checked"'; } ?> />&nbsp;<label for="aceify_menus-checkbox">Enable Menus</label> <br />
 			
 			<br /><br />
-			
 			<h3>Disable Admin Bar on Front End</h3>
 			
 			<input type="checkbox" name="aceify_disable_bar" tabindex="17" id="disable-bar-checkbox" value="true"<?php if($aceify_disable_bar==true){ echo 'checked="checked"'; } ?> />&nbsp;<label for="disable-bar-checkbox">Disable Admin Bar (Front End)</label> <br />
