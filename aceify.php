@@ -249,7 +249,6 @@ function aceify_login_style() {
 	
 	if($aceify_login_logo || $aceify_login_logo_height || $aceify_login_logo_bottom_margin || $aceify_login_custom_css){
 ?>
-
 	<style type="text/css"><?php
 		if($aceify_login_logo){ ?>
 			body.login div#login h1 a {
